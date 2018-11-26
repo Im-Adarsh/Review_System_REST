@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form class="text-left border border-light p-7">
+
+    <p class="h2 mb-3">Edit Review</p>
+
+    <!-- Name -->
+    <input type="text" id="itemName" class="form-control mb-4" placeholder="Name of Item">
+
+    <!-- Email -->
+    <input type="text" id="authorName" class="form-control mb-4" placeholder="Your name">
+
+    <!-- Subject -->
+    <label>Rating</label>
+    <br>
+    <input type="radio" name="rating" value=1 >1
+    <input type="radio" name="rating" value=2 >2
+    <input type="radio" name="rating" value=3 >3
+    <input type="radio" name="rating" value=4 >4
+    <input type="radio" name="rating" value=5 >5
+<br>
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="comment" rows="3" placeholder="Comment"></textarea>
+    </div>
+
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" id="btnSave">Submit</button>
+
+</form>
+</body>
+</html>
